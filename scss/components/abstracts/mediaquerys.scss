@@ -11,7 +11,47 @@
         gap: 1rem;
     }
 
-    .footer{
-        display: block;
+    .artikelen_main_minecraft-udemy{
+        .kaarten_minecraft_sectie-udemy{
+            flex-wrap: wrap;
+        } 
     }
 }
+
+@media screen and (max-width: 37.5rem){
+    .artikelen_main-udemy{
+        left: 0;
+
+        .artikel_sectie-udemy{
+            .artikel_h1-udemy{
+                max-width: 18ch;
+            }
+            .artikel_paragraaf{
+                max-width: 30ch;
+            }
+        }
+    }
+    
+@media screen and (max-width: 46.875rem){
+    .artikel_sectie-udemy{
+        .artikel_h1-udemy{
+            max-width: 20ch;
+        }
+        .artikel_paragraaf{
+            max-width: 30ch;
+        }
+    }
+}
+
+
+
+    .artikelen_main_minecraft-udemy{
+        left: 0;
+    }
+}
+
+
+
+
+
+
