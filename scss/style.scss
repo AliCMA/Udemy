@@ -1,7 +1,10 @@
 @use './reset.scss';
 
+
+//header
 @use './components/header/header.scss';
 
+//main
 @use './components/main/main.scss';
 @use './components/main/artikelen.scss';
 @use './components/main/banner-main.scss';
@@ -10,7 +13,10 @@
 @use './components/main/gameinfo.scss';
 @use './components/main/tekst_artikelen.scss';
 
+//footer
 @use './components/footer/footer.scss';
 
+
+//abstracts
 @use './components/abstracts/mediaquerys.scss';
 @use './components/abstracts/font.scss';

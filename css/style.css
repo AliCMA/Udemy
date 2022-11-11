@@ -83,19 +83,6 @@ body {
   font-weight: 600;
 }
 
-.header_inlog-udemy:hover {
-  color: red;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-.header_aanmelden-udemy {
-  width: 10rem;
-  height: 4rem;
-  background: #211f1f;
-  color: white;
-  font-weight: 600;
-}
-
 .header_aanmelden-udemy:hover {
   cursor: pointer;
   background-color: #000;
@@ -114,6 +101,19 @@ body {
 
 .hamburger-udemy {
   display: none;
+}
+
+.header_inlog-udemy:hover {
+  color: red;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header_aanmelden-udemy {
+  width: 10rem;
+  height: 4rem;
+  background: #211f1f;
+  color: white;
+  font-weight: 600;
 }
 
 main {
@@ -143,7 +143,18 @@ main {
   flex-direction: column;
   padding-top: 6.4rem;
 }
-.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy {
+.artikelen_verschillende_categorien-udemy .artikelen_div_categorien-udemy {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.artikelen_verschillende_categorien-udemy .artikelen_div_categorien-udemy .categorien_div-udemy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.artikelen_verschillende_categorien-udemy .artikelen_div_categorien-udemy .categorien_div-udemy .article_div_categorien-udemy {
   display: flex;
   gap: 4rem;
   flex-direction: column;
@@ -151,33 +162,22 @@ main {
   height: 40rem;
   padding: 2rem 0;
 }
-.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy .artikelen_div_categorien-udemy {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy .artikelen_div_categorien-udemy .categorien_div-udemy {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 3rem;
-}
-.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy .artikelen_div_categorien-udemy .categorien_div-udemy .categorien_div_p-udemy {
+.artikelen_verschillende_categorien-udemy .artikelen_div_categorien-udemy .categorien_div-udemy .article_div_categorien-udemy .categorien_div_p-udemy {
   color: #5624d0;
   font-weight: bold;
   font-size: 80%;
   text-decoration: underline;
 }
-.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy .artikelen_div_categorien-udemy .categorien_div-udemy .categorien_div_p-udemy:hover {
+.artikelen_verschillende_categorien-udemy .artikelen_div_categorien-udemy .categorien_div-udemy .article_div_categorien-udemy .categorien_div_p-udemy:hover {
   color: red;
   cursor: pointer;
   text-decoration: underline;
 }
-.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy .artikelen_div_categorien-udemy .categorien_div-udemy .categorien_div_h5-udemy {
+.artikelen_verschillende_categorien-udemy .artikelen_div_categorien-udemy .categorien_div-udemy .article_div_categorien-udemy .categorien_div_h5-udemy {
   color: grey;
   font-weight: 100;
 }
-.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy .categorie_button-udemy {
+.artikelen_verschillende_categorien-udemy .artikelen_div_categorien-udemy .categorie_button-udemy {
   width: 22rem;
   min-height: 4rem;
   display: flex;
@@ -188,7 +188,7 @@ main {
   cursor: pointer;
   font-weight: 600;
 }
-.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy .categorie_button-udemy:hover {
+.artikelen_verschillende_categorien-udemy .artikelen_div_categorien-udemy .categorie_button-udemy:hover {
   color: #1c1d1f;
   background-color: rgba(0, 0, 0, 0.04);
 }
@@ -212,21 +212,22 @@ main {
 .main_winkelmandje_section-udemy .main_div_winkelmandje-udemy {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  gap: 1.5rem;
   padding: 2rem;
   width: 42.5rem;
   height: 20rem;
   background: white;
   box-shadow: 0rem 0rem 1rem 0.5rem rgba(0, 0, 0, 0.1);
+  position: absolute;
+  gap: 1.5rem;
 }
 
-.udemy_main-section {
+.Banner-foto {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.udemy_main-section .main_foto_section-udemy {
+
+.main_foto_section-udemy {
   width: 85%;
   height: 40rem;
   object-fit: cover;
@@ -550,20 +551,20 @@ main {
 }
 .footer .footer_section-udemy {
   padding: 4rem;
+  justify-content: space-between;
   display: flex;
   color: white;
-  justify-content: space-between;
 }
 .footer .footer_section-udemy .footer_article-udemy {
   display: flex;
-  gap: 15rem;
+  gap: 45rem;
 }
 .footer .footer_section-udemy .footer_article-udemy .footer_ul-udemy {
   list-style: none;
+  gap: 1.5rem;
   display: flex;
   flex-direction: column;
   font-size: 1.5rem;
-  gap: 1.5rem;
 }
 .footer .footer_section-udemy .footer_article-udemy .footer_ul-udemy .footer_li-udemy {
   font-size: 1.5rem;

@@ -1,40 +1,40 @@
-.header{
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header_boven-ul{
+.header_boven-ul {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0rem 0.1rem 1rem 0rem rgba(0,0,0,0.2);
+    box-shadow: 0rem 0.1rem 1rem 0rem rgba(0, 0, 0, 0.2);
     list-style: none;
     height: 8rem;
     padding: 2rem;
     gap: 2rem;
 }
 
-.foto_logo-udemy{
+.foto_logo-udemy {
     width: 8rem;
     height: 8rem;
     object-fit: contain;
     cursor: pointer;
 }
 
-.header_li-udemy{
+.header_li-udemy {
     color: #1c1d1f;
     list-style: none;
     font-size: 70%;
     cursor: pointer;
 }
 
-.header_li-udemy:hover{
+.header_li-udemy:hover {
     color: red;
 }
 
-.zoekbar-udemy{
+.zoekbar-udemy {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@
     height: 3rem;
 }
 
-.zoekbar_header-udemy{
+.zoekbar_header-udemy {
     position: relative;
     left: 4rem;
     width: 2.5rem;
@@ -50,52 +50,52 @@
     object-fit: contain;
 }
 
-.header_zoekbar-udemy{
+.header_zoekbar-udemy {
     width: 100%;
     height: 100%;
     border-radius: 2rem;
     padding: 2rem 5rem;
-    border: 0.1rem solid rgba(0,0,0,0.9);
+    border: 0.1rem solid rgba(0, 0, 0, 0.9);
 }
 
-.header_inlog-udemy{
+.header_inlog-udemy {
     width: 8rem;
     height: 4rem;
-    border: 0.1rem solid rgba(0,0,0,0.9);
+    border: 0.1rem solid rgba(0, 0, 0, 0.9);
     background: white;
     cursor: pointer;
     font-weight: 600;
 }
 
-.header_inlog-udemy:hover{
-    color: red;
-    background-color: rgba(0,0,0,0.4);
+.header_aanmelden-udemy:hover {
+    cursor: pointer;
+    background-color: #000;
 }
 
-.header_aanmelden-udemy{
+.header_wereldbol-udemy {
+    width: 4rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.9);
+    padding: 0.8rem;
+}
+
+.header_wereldbol-udemy:hover {
+    color: #1c1d1f;
+    background-color: rgba(0, 0, 0, .04);
+}
+
+.hamburger-udemy {
+    display: none;
+}
+
+.header_inlog-udemy:hover {
+    color: red;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header_aanmelden-udemy {
     width: 10rem;
     height: 4rem;
     background: #211f1f;
     color: white;
     font-weight: 600;
-}
-
-.header_aanmelden-udemy:hover{
-    cursor: pointer;
-    background-color: #000;
-}
-
-.header_wereldbol-udemy{
-    width: 4rem;
-    border: 0.1rem solid rgba(0,0,0,0.9);
-    padding: 0.8rem;
-}
-
-.header_wereldbol-udemy:hover{
-    color: #1c1d1f;
-    background-color: rgba(0,0,0,.04);
-}
-
-.hamburger-udemy{
-    display: none;
 }

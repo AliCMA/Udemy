@@ -20,24 +20,26 @@
     .main_div_winkelmandje-udemy{
         display: flex;
         flex-direction: column;
-        position: absolute;
-        gap: 1.5rem;
         padding: 2rem;
         width: 42.5rem;
         height: 20rem;
         background: white;
         box-shadow: 0rem 0rem 1rem 0.5rem rgba(0,0,0,0.1);
+        position: absolute;
+        gap: 1.5rem;
+       
     }
 }
 
-.udemy_main-section{
+.Banner-foto{
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
     .main_foto_section-udemy{
         width: 85%;
         height: 40rem;
         object-fit: cover;
     }    
-}
+
