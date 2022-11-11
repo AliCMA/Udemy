@@ -611,6 +611,9 @@ main {
   .header_boven-ul {
     gap: 1rem;
   }
+  .footer {
+    display: block;
+  }
 }
 * {
   font-family: "Oswald", sans-serif;
