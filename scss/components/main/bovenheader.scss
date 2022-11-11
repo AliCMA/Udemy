@@ -1,0 +1,54 @@
+
+.gamen_maten-udemy{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+
+    .gamen_article-udemy{
+        display: flex;
+        justify-content: center;
+        
+        .div_foto_gamen-udemy{
+            display: flex;
+            height: 40rem;
+            
+            .foto_gamen-udemy{
+                width: 70%;
+                height: 90%;
+            }
+        }
+
+        .div_tekst_motivatie-udemy{
+            display: flex;
+            justify-content: flex-start;
+            padding: 3rem;
+            flex-direction: column;
+            gap: 1.5rem;
+            width: 40ch;
+
+            .tekst_h1_gamen-udemy {
+                font-size: 3rem;
+                font-weight: 600;
+            }
+
+            .motivatie_tekst_tournament-udemy {
+                width: 36ch;
+            }
+
+            .knop_tournament-udemy {
+                width: 20rem;
+                height: 5rem;
+                background: rgba(0,0,0,0.9);
+                color: white;
+                font-weight: 600;
+                cursor: pointer;
+
+                &:hover{
+                    background: rgba(0,0,0,1);
+                }
+            }
+        }
+    }
+}

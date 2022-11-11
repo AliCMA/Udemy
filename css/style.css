@@ -1,107 +1,3 @@
-*{
-  font-family: 'Roboto', sans-serif;
-}
-
-
-
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.ul_header {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-around;
-  box-shadow: 0rem 0.1rem 1rem 0rem rgba(0, 0, 0, 0.2);
-  list-style: none;
-  height: 8rem;
-  padding: 2rem;
-  gap: 2rem;
-}
-
-.logo_udemy {
-  width: 8rem;
-  height: 8rem;
-  object-fit: contain;
-  cursor: pointer;
-}
-
-.li_header {
-  color: #1c1d1f;
-  list-style: none;
-  font-size: 70%;
-  cursor: pointer;
-}
-
-.li_header:hover {
-  color: #5624d0;
-}
-
-.li_search-bar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60rem;
-  height: 3rem;
-}
-
-.search-bar_header_icon {
-  position: relative;
-  left: 4rem;
-  width: 2.5rem;
-  height: 100%;
-  object-fit: contain;
-}
-
-.search_bar_header {
-  width: 100%;
-  height: 100%;
-  border-radius: 2rem;
-  padding: 2rem 5rem;
-  border: 0.1rem solid rgba(0, 0, 0, 0.9);
-}
-
-.login_header {
-  width: 8rem;
-  height: 4rem;
-  border: 0.1rem solid rgba(0, 0, 0, 0.9);
-  background: white;
-  cursor: pointer;
-  font-weight: 600;
-}
-
-.login_header:hover {
-  color: #1c1d1f;
-  background-color: rgba(0, 0, 0, 0.04);
-}
-
-.inschrijven_header {
-  width: 10rem;
-  height: 4rem;
-  background: #211f1f;
-  color: white;
-  font-weight: 600;
-}
-
-.inschrijven_header:hover {
-  cursor: pointer;
-  background-color: #000;
-}
-
-.wereldbold_header {
-  width: 4rem;
-  border: 0.1rem solid rgba(0, 0, 0, 0.9);
-  padding: 0.8rem;
-}
-
-.wereldbold_header:hover {
-  color: #1c1d1f;
-  background-color: rgba(0, 0, 0, 0.04);
-}
-
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -118,22 +14,186 @@ body {
   font-weight: 200;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_boven-ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0rem 0.1rem 1rem 0rem rgba(0, 0, 0, 0.2);
+  list-style: none;
+  height: 8rem;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.foto_logo-udemy {
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.header_li-udemy {
+  color: #1c1d1f;
+  list-style: none;
+  font-size: 70%;
+  cursor: pointer;
+}
+
+.header_li-udemy:hover {
+  color: red;
+}
+
+.zoekbar-udemy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60rem;
+  height: 3rem;
+}
+
+.zoekbar_header-udemy {
+  position: relative;
+  left: 4rem;
+  width: 2.5rem;
+  height: 100%;
+  object-fit: contain;
+}
+
+.header_zoekbar-udemy {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  padding: 2rem 5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.9);
+}
+
+.header_inlog-udemy {
+  width: 8rem;
+  height: 4rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.9);
+  background: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.header_inlog-udemy:hover {
+  color: red;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header_aanmelden-udemy {
+  width: 10rem;
+  height: 4rem;
+  background: #211f1f;
+  color: white;
+  font-weight: 600;
+}
+
+.header_aanmelden-udemy:hover {
+  cursor: pointer;
+  background-color: #000;
+}
+
+.header_wereldbol-udemy {
+  width: 4rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.9);
+  padding: 0.8rem;
+}
+
+.header_wereldbol-udemy:hover {
+  color: #1c1d1f;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.hamburger-udemy {
+  display: none;
+}
+
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-main .section_main_udemy {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.div_cardjes_courses:hover {
+  opacity: 1;
 }
-main .section_main_udemy .section_main_udemy_foto {
-  width: 85%;
-  height: 40rem;
+
+.div_kaarten_foto-udemy {
+  width: 100%;
+  height: 40%;
   object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
-main .section_main_udemy_cardje {
+
+.artikelen_verschillende_categorien-udemy {
+  background: #f7f9fa;
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  padding: 0 14rem;
+  flex-direction: column;
+  padding-top: 6.4rem;
+}
+.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy {
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+  width: 100%;
+  height: 40rem;
+  padding: 2rem 0;
+}
+.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy .artikelen_div_categorien-udemy {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy .artikelen_div_categorien-udemy .categorien_div-udemy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy .artikelen_div_categorien-udemy .categorien_div-udemy .categorien_div_p-udemy {
+  color: #5624d0;
+  font-weight: bold;
+  font-size: 80%;
+  text-decoration: underline;
+}
+.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy .artikelen_div_categorien-udemy .categorien_div-udemy .categorien_div_p-udemy:hover {
+  color: red;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy .artikelen_div_categorien-udemy .categorien_div-udemy .categorien_div_h5-udemy {
+  color: grey;
+  font-weight: 100;
+}
+.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy .categorie_button-udemy {
+  width: 22rem;
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid rgba(0, 0, 0, 0.5);
+  background: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+.artikelen_verschillende_categorien-udemy .article_div_categorien-udemy .categorie_button-udemy:hover {
+  color: #1c1d1f;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.main_winkelmandje_section-udemy {
   display: flex;
   justify-content: center;
   position: relative;
@@ -141,15 +201,15 @@ main .section_main_udemy_cardje {
   width: 53%;
   bottom: 32rem;
 }
-main .section_main_udemy_cardje .h2_cardje {
+.main_winkelmandje_section-udemy .main_h2_winkelmand-udemy {
   width: 25ch;
   font-weight: bolder;
   font-size: 3rem;
 }
-main .section_main_udemy_cardje .p_cardje {
+.main_winkelmandje_section-udemy .main_p_winkelmand-udemy {
   width: 38ch;
 }
-main .section_main_udemy_cardje .div_main_udemy_cardje {
+.main_winkelmandje_section-udemy .main_div_winkelmandje-udemy {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -160,7 +220,65 @@ main .section_main_udemy_cardje .div_main_udemy_cardje {
   background: white;
   box-shadow: 0rem 0rem 1rem 0.5rem rgba(0, 0, 0, 0.1);
 }
-main .article_udemy_articles {
+
+.udemy_main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.udemy_main-section .main_foto_section-udemy {
+  width: 85%;
+  height: 40rem;
+  object-fit: cover;
+}
+
+.gamen_maten-udemy {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+}
+.gamen_maten-udemy .gamen_article-udemy {
+  display: flex;
+  justify-content: center;
+}
+.gamen_maten-udemy .gamen_article-udemy .div_foto_gamen-udemy {
+  display: flex;
+  height: 40rem;
+}
+.gamen_maten-udemy .gamen_article-udemy .div_foto_gamen-udemy .foto_gamen-udemy {
+  width: 70%;
+  height: 90%;
+}
+.gamen_maten-udemy .gamen_article-udemy .div_tekst_motivatie-udemy {
+  display: flex;
+  justify-content: flex-start;
+  padding: 3rem;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 40ch;
+}
+.gamen_maten-udemy .gamen_article-udemy .div_tekst_motivatie-udemy .tekst_h1_gamen-udemy {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.gamen_maten-udemy .gamen_article-udemy .div_tekst_motivatie-udemy .motivatie_tekst_tournament-udemy {
+  width: 36ch;
+}
+.gamen_maten-udemy .gamen_article-udemy .div_tekst_motivatie-udemy .knop_tournament-udemy {
+  width: 20rem;
+  height: 5rem;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.gamen_maten-udemy .gamen_article-udemy .div_tekst_motivatie-udemy .knop_tournament-udemy:hover {
+  background: rgb(0, 0, 0);
+}
+
+.artikelen_main_minecraft-udemy {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -169,59 +287,120 @@ main .article_udemy_articles {
   padding: 2rem;
   gap: 2rem;
 }
-main .article_udemy_articles .section_article_udemy {
+.artikelen_main_minecraft-udemy .kaarten_minecraft_sectie_h1-udemy {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 8rem;
+  height: 60rem;
+  padding: 2rem;
+  gap: 2rem;
+}
+.artikelen_main_minecraft-udemy .kaarten_minecraft_sectie_h1-udemy .section_cardjes_courses_udemy_h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+.artikelen_main_minecraft-udemy .kaarten_minecraft_sectie_h1-udemy .kaarten_minecraft_sectie-udemy {
+  display: flex;
+  gap: 1.3rem;
+}
+.artikelen_main_minecraft-udemy .kaarten_minecraft_sectie_h1-udemy .kaarten_minecraft_sectie-udemy .kaarten_div_kaart_minecraft-udemy {
+  width: 25rem;
+  height: 35rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.5);
+  position: relative;
+  cursor: pointer;
+}
+.artikelen_main_minecraft-udemy .kaarten_minecraft_sectie_h1-udemy .kaarten_minecraft_sectie-udemy .kaarten_div_kaart_minecraft-udemy .artikel_div_kaarten_tekst-udemy {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0.5rem;
+}
+.artikelen_main_minecraft-udemy .kaarten_minecraft_sectie_h1-udemy .kaarten_minecraft_sectie-udemy .kaarten_div_kaart_minecraft-udemy .artikel_div_kaarten_tekst-udemy .tekst_minecraft_review-udemy {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.artikelen_main_minecraft-udemy .kaarten_minecraft_sectie_h1-udemy .kaarten_minecraft_sectie-udemy .kaarten_div_kaart_minecraft-udemy .artikel_div_kaarten_tekst-udemy .tekst_minecraft_review-udemy .p_review_numbers {
+  color: rgb(155, 106, 14);
+}
+.artikelen_main_minecraft-udemy .kaarten_minecraft_sectie_h1-udemy .kaarten_minecraft_sectie-udemy .kaarten_div_kaart_minecraft-udemy .artikel_div_kaarten_tekst-udemy .tekst_minecraft_review-udemy .li_minecraft_review-udemy {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.artikelen_main_minecraft-udemy .kaarten_minecraft_sectie_h1-udemy .kaarten_minecraft_sectie-udemy .kaarten_div_kaart_minecraft-udemy .artikel_div_kaarten_tekst-udemy .tekst_minecraft_review-udemy .li_minecraft_review-udemy .fa-star {
+  font-size: 1.5rem;
+  color: orange;
+}
+.artikelen_main_minecraft-udemy .kaarten_minecraft_sectie_h1-udemy .kaarten_minecraft_sectie-udemy .kaarten_div_kaart_minecraft-udemy .artikel_div_kaarten_tekst-udemy .prijs_section_div_minecraft-udemy {
+  display: flex;
+  gap: 2rem;
+}
+.artikelen_main_minecraft-udemy .kaarten_minecraft_sectie_h1-udemy .kaarten_minecraft_sectie-udemy .kaarten_div_kaart_minecraft-udemy .artikel_div_kaarten_tekst-udemy .prijs_section_div_minecraft-udemy .prijs_minecraft_p-udemy {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.artikelen_main_minecraft-udemy .kaarten_minecraft_sectie_h1-udemy .kaarten_minecraft_sectie-udemy .kaarten_div_kaart_minecraft-udemy .artikel_div_kaarten_tekst-udemy .prijs_section_div_minecraft-udemy .courses_prijs-previes {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: line-through;
+  font-size: 1.8rem;
+}
+
+.artikelen_main-udemy {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 12rem;
+  width: 85%;
+  padding: 2rem;
+  gap: 2rem;
+}
+.artikelen_main-udemy .artikel_sectie-udemy {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-main .article_udemy_articles .section_article_udemy .h1_article_udemy {
+.artikelen_main-udemy .artikel_sectie-udemy .artikel_h1-udemy {
   font-size: 4rem;
 }
-main .article_udemy_articles .section_article_udemy .p_article_udemy {
+.artikelen_main-udemy .artikel_sectie-udemy .artikel_paragraaf {
   font-size: 2rem;
   width: 70ch;
 }
-main .article_udemy_articles .section_carousel_udemy {
+.artikelen_main-udemy .p_section_main-udemy {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-main .article_udemy_articles .section_carousel_udemy .article_carousel_udemy {
+.artikelen_main-udemy .p_section_main-udemy .artikelen_carousel_main-udemy {
   display: flex;
   gap: 2rem;
 }
-main .article_udemy_articles .section_carousel_udemy .article_carousel_udemy .div_carousel {
+.artikelen_main-udemy .p_section_main-udemy .artikelen_carousel_main-udemy .div_section_main_carousel-udemy {
   color: rgba(0, 0, 0, 0.9);
   list-style: none;
 }
-main .article_udemy_articles .section_carousel_udemy .article_carousel_udemy .div_carousel:hover {
+.artikelen_main-udemy .p_section_main-udemy .artikelen_carousel_main-udemy .div_section_main_carousel-udemy:hover {
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
-main .article_udemy_articles .section_carousel_udemy .article_carousel_udemy .div_carousel .article_carousel_horizontal {
-  min-height: 50rem;
-  background: green;
-}
-main .article_udemy_articles .section_carousel_udemy .div_text_carousel {
+.artikelen_main-udemy .p_section_main-udemy .tekst_div_main_carousel-udemy {
   width: 70%;
   padding: 3rem;
   min-height: 30rem;
   gap: 2rem;
   border: 0.1rem solid rgba(0, 0, 0, 0.5);
-}
-main .article_udemy_articles .section_carousel_udemy .div_text_carousel .img_carousel {
-  min-width: 100%;
-  max-height: 40rem;
-  object-fit: cover;
-}
-main .article_udemy_articles .section_carousel_udemy .div_text_carousel .p_carousel {
-  width: 100%;
-}
-main .article_udemy_articles .section_carousel_udemy .carousl {
   display: flex;
   flex-direction: column;
 }
-main .article_udemy_articles .section_carousel_udemy .carousl .button_carousel_text {
+.artikelen_main-udemy .p_section_main-udemy .tekst_div_main_carousel-udemy .paragraaf_carousel-udemy {
+  width: 100%;
+}
+.artikelen_main-udemy .p_section_main-udemy .tekst_div_main_carousel-udemy .knopbutton_carousel_main-udemy {
   min-width: 12rem;
   max-width: 20rem;
   display: flex;
@@ -234,152 +413,12 @@ main .article_udemy_articles .section_carousel_udemy .carousl .button_carousel_t
   font-weight: 600;
   cursor: pointer;
 }
-main .article_udemy_articles .section_carousel_udemy .carousl .button_carousel_text:hover {
+.artikelen_main-udemy .p_section_main-udemy .tekst_div_main_carousel-udemy .knopbutton_carousel_main-udemy:hover {
   color: #1c1d1f;
   background-color: rgba(0, 0, 0, 0.04);
 }
-main .article_udemy_articles .section_cardjes_courses_udemy {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 8rem;
-  height: 60rem;
-  gap: 2rem;
-}
-main .article_udemy_articles .section_cardjes_courses_udemy .section_cardjes_courses_udemy_h1 {
-  font-weight: 900;
-  font-size: 3rem;
-}
-main .article_udemy_articles .section_cardjes_courses_udemy .article_cardjes_courses_udem {
-  display: flex;
-  gap: 1.3rem;
-}
-main .article_udemy_articles .section_cardjes_courses_udemy .article_cardjes_courses_udem .div_cardjes_courses {
-  width: 25rem;
-  height: 35rem;
-  border-radius: 0.5rem;
-  background: rgba(255, 255, 255, 0.5);
-  position: relative;
-  cursor: pointer;
-}
-main .article_udemy_articles .section_cardjes_courses_udemy .article_cardjes_courses_udem .div_cardjes_courses .article_text_courses_cardjes {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 1rem 0.5rem;
-}
-main .article_udemy_articles .section_cardjes_courses_udemy .article_cardjes_courses_udem .div_cardjes_courses .article_text_courses_cardjes .div_reviews-star_courses {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-main .article_udemy_articles .section_cardjes_courses_udemy .article_cardjes_courses_udem .div_cardjes_courses .article_text_courses_cardjes .div_reviews-star_courses .p_review_numbers {
-  color: rgb(155, 106, 14);
-}
-main .article_udemy_articles .section_cardjes_courses_udemy .article_cardjes_courses_udem .div_cardjes_courses .article_text_courses_cardjes .div_reviews-star_courses .li_revieuw {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-}
-main .article_udemy_articles .section_cardjes_courses_udemy .article_cardjes_courses_udem .div_cardjes_courses .article_text_courses_cardjes .div_reviews-star_courses .li_revieuw .fa-star {
-  font-size: 1.5rem;
-  color: orange;
-}
-main .article_udemy_articles .section_cardjes_courses_udemy .article_cardjes_courses_udem .div_cardjes_courses .article_text_courses_cardjes .div_prijs_courses-now {
-  display: flex;
-  gap: 2rem;
-}
-main .article_udemy_articles .section_cardjes_courses_udemy .article_cardjes_courses_udem .div_cardjes_courses .article_text_courses_cardjes .div_prijs_courses-now .courses_prijs-now {
-  font-weight: 700;
-  font-size: 1.8rem;
-}
-main .article_udemy_articles .section_cardjes_courses_udemy .article_cardjes_courses_udem .div_cardjes_courses .article_text_courses_cardjes .div_prijs_courses-now .courses_prijs-previes {
-  color: rgba(0, 0, 0, 0.5);
-  text-decoration: line-through;
-  font-size: 1.8rem;
-}
-main .article_udemy_articles .section_cardjes_courses_udemy .article_cardjes_courses_udem .div_cardjes_courses .div_cardjes_courses:hover .overlay {
-  opacity: 1;
-}
-main .article_udemy_articles .section_cardjes_courses_udemy .article_cardjes_courses_udem .div_cardjes_courses .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transform: 0.5s ease;
-  background: rgba(0, 0, 0, 0.2);
-}
-main .article_udemy_articles .section_cardjes_courses_udemy .article_cardjes_courses_udem .div_cardjes_courses .udemy_courses_cardjes_images {
-  width: 100%;
-  height: 40%;
-  object-fit: cover;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-}
-main .articles_categorien_courses {
-  background: #f7f9fa;
-  width: 100%;
-  height: 50rem;
-  display: flex;
-  padding: 0 14rem;
-  flex-direction: column;
-  padding-top: 6.4rem;
-}
-main .articles_categorien_courses .div_categorien_courses {
-  display: flex;
-  gap: 4rem;
-  flex-direction: column;
-  width: 100%;
-  height: 40rem;
-  padding: 2rem 0;
-}
-main .articles_categorien_courses .div_categorien_courses .article_categorie {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-main .articles_categorien_courses .div_categorien_courses .article_categorie .div_categories {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 3rem;
-}
-main .articles_categorien_courses .div_categorien_courses .article_categorie .div_categories .p_div_categories {
-  color: #5624d0;
-  font-weight: bold;
-  font-size: 80%;
-  text-decoration: underline;
-}
-main .articles_categorien_courses .div_categorien_courses .article_categorie .div_categories .p_div_categories:hover {
-  color: #401b9c;
-  cursor: pointer;
-  text-decoration: underline;
-}
-main .articles_categorien_courses .div_categorien_courses .article_categorie .div_categories .h5_div_categories {
-  color: grey;
-  font-weight: 100;
-}
-main .articles_categorien_courses .div_categorien_courses .button_categorie {
-  width: 22rem;
-  min-height: 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 0.1rem solid rgba(0, 0, 0, 0.5);
-  background: white;
-  cursor: pointer;
-  font-weight: 600;
-}
-main .articles_categorien_courses .div_categorien_courses .button_categorie:hover {
-  color: #1c1d1f;
-  background-color: rgba(0, 0, 0, 0.04);
-}
-main .instructie__article {
+
+.instructie__article {
   width: 100%;
   height: 60rem;
   display: flex;
@@ -387,56 +426,43 @@ main .instructie__article {
   align-items: center;
   gap: 4rem;
 }
-main .instructie__article .section_instractor {
+.instructie__article .section_instractor {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8rem;
 }
-main .instructie__article .section_instractor .div_instractor_image {
+.instructie__article .section_instractor .div_instractor_image {
   width: 45rem;
 }
-main .instructie__article .section_instractor .div_instractor_image .intructie_foto {
+.instructie__article .section_instractor .div_instractor_image .intructie_foto {
   width: 100%;
   min-height: 40rem;
   object-fit: cover;
   border-radius: 0.5rem;
 }
-main .instructie__article .section_instractor .div_intractor_text {
+.instructie__article .section_instractor .div_intractor_text {
   width: 50%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-main .instructie__article .section_instractor .div_intractor_text .h1_intractor {
+.instructie__article .section_instractor .div_intractor_text .h1_intractor {
   font-weight: 600;
   font-size: 3rem;
 }
-main .instructie__article .section_instractor .div_intractor_text .p_instractor {
+.instructie__article .section_instractor .div_intractor_text .p_instractor {
   width: 38ch;
 }
-main .instructie__article .section_instractor .div_intractor_text .button_categorie {
-  width: 25rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 5rem;
-  background: rgba(0, 0, 0, 0.9);
-  color: white;
-  cursor: pointer;
-  font-weight: 600;
-}
-main .instructie__article .section_instractor .div_intractor_text .button_categorie:hover {
-  background: rgb(0, 0, 0);
-}
-main .section_trusted_by_team {
+
+.partnerschip_sectie-udemy {
   padding-top: 5rem;
   height: 25rem;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-main .section_trusted_by_team .article_trusted_by_team {
+.partnerschip_sectie-udemy .section_partnership_betrouwbaar-udemy {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -445,17 +471,18 @@ main .section_trusted_by_team .article_trusted_by_team {
   padding: 2rem;
   height: 25rem;
 }
-main .section_trusted_by_team .article_trusted_by_team .h1_trusted_by_team {
+.partnerschip_sectie-udemy .section_partnership_betrouwbaar-udemy .h1_trusted_by_team {
   font-size: 3rem;
   font-weight: 600;
 }
-main .section_trusted_by_team .article_trusted_by_team .div_trusted_by_team {
+.partnerschip_sectie-udemy .section_partnership_betrouwbaar-udemy .div_trusted_by_team {
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 12rem;
 }
-main .section_udemy_bussiness {
+
+.abbonement_games-udemy {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -463,25 +490,25 @@ main .section_udemy_bussiness {
   flex-direction: column;
   height: 50rem;
 }
-main .section_udemy_bussiness .article_udemy_bussiness {
+.abbonement_games-udemy .article_abbonement-udemy {
   display: flex;
   padding: 2rem;
   width: 50%;
   height: 40rem;
   gap: 2rem;
 }
-main .section_udemy_bussiness .article_udemy_bussiness .div_text_udemy_bussiness {
+.abbonement_games-udemy .article_abbonement-udemy .abbonement_tekst-udemy {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
   width: 100%;
 }
-main .section_udemy_bussiness .article_udemy_bussiness .div_text_udemy_bussiness .div_component_button {
+.abbonement_games-udemy .article_abbonement-udemy .abbonement_tekst-udemy .div_knop_abbonement-udemy {
   display: flex;
   gap: 1rem;
 }
-main .section_udemy_bussiness .article_udemy_bussiness .div_text_udemy_bussiness .buttonimg_text_udemy_bussiness {
+.abbonement_games-udemy .article_abbonement-udemy .abbonement_tekst-udemy .tekst_knop_abbonement-udemy {
   width: 20rem;
   height: 5rem;
   background: rgba(0, 0, 0, 0.9);
@@ -489,10 +516,10 @@ main .section_udemy_bussiness .article_udemy_bussiness .div_text_udemy_bussiness
   font-weight: bold;
   cursor: pointer;
 }
-main .section_udemy_bussiness .article_udemy_bussiness .div_text_udemy_bussiness .buttonimg_text_udemy_bussiness:hover {
+.abbonement_games-udemy .article_abbonement-udemy .abbonement_tekst-udemy .tekst_knop_abbonement-udemy:hover {
   background: rgb(0, 0, 0);
 }
-main .section_udemy_bussiness .article_udemy_bussiness .div_text_udemy_bussiness .buttonimg_text_udemy_bussiness_2 {
+.abbonement_games-udemy .article_abbonement-udemy .abbonement_tekst-udemy .tekst_knop2_abbonement-udemy {
   width: 20rem;
   height: 5rem;
   background: white;
@@ -500,63 +527,18 @@ main .section_udemy_bussiness .article_udemy_bussiness .div_text_udemy_bussiness
   font-weight: bold;
   cursor: pointer;
 }
-main .section_udemy_bussiness .article_udemy_bussiness .div_text_udemy_bussiness .img_text_udemy_bussiness {
+.abbonement_games-udemy .article_abbonement-udemy .abbonement_tekst-udemy .abbonement_img-udemy {
   max-width: 100%;
   height: 40%;
   object-fit: contain;
 }
-main .section_udemy_bussiness .article_udemy_bussiness .div_img_udemy_bussiness {
+.abbonement_games-udemy .article_abbonement-udemy .div_foto_abbonement-udemy {
   display: flex;
 }
-main .section_udemy_bussiness .article_udemy_bussiness .div_img_udemy_bussiness .imagediv_img_udemy_bussiness {
+.abbonement_games-udemy .article_abbonement-udemy .div_foto_abbonement-udemy .foto_abbo-udemy {
   width: 100%;
   min-height: 40rem;
   object-fit: cover;
-}
-main .breng_verandering {
-  display: flex;
-  padding: 2rem;
-  justify-content: center;
-  align-items: center;
-  height: 50rem;
-}
-main .breng_verandering .article_breng_verandering {
-  display: flex;
-  justify-content: center;
-}
-main .breng_verandering .article_breng_verandering .div_breng_verandering_image {
-  display: flex;
-  height: 40rem;
-}
-main .breng_verandering .article_breng_verandering .div_breng_verandering_image .img_breng_veranderingen {
-  width: 70%;
-  height: 90%;
-}
-main .breng_verandering .article_breng_verandering .div_breng_veranderingen_text {
-  display: flex;
-  justify-content: flex-start;
-  padding: 3rem;
-  flex-direction: column;
-  gap: 1.5rem;
-  width: 40ch;
-}
-main .breng_verandering .article_breng_verandering .div_breng_veranderingen_text .h1_div_breng_veranderingen_text {
-  font-size: 3rem;
-  font-weight: 600;
-}
-main .breng_verandering .article_breng_verandering .div_breng_veranderingen_text .p_div_breng_veranderingen_text {
-  width: 36ch;
-}
-main .breng_verandering .article_breng_verandering .div_breng_veranderingen_text .button_breng_veranderingen {
-  width: 20rem;
-  height: 5rem;
-  background: rgba(0, 0, 0, 0.9);
-  color: white;
-  font-weight: 600;
-  cursor: pointer;
-}
-main .breng_verandering .article_breng_verandering .div_breng_veranderingen_text .button_breng_veranderingen:hover {
-  background: rgb(0, 0, 0);
 }
 
 .footer {
@@ -566,32 +548,32 @@ main .breng_verandering .article_breng_verandering .div_breng_veranderingen_text
   display: flex;
   flex-direction: column;
 }
-.footer .section_footer {
+.footer .footer_section-udemy {
   padding: 4rem;
   display: flex;
   color: white;
   justify-content: space-between;
 }
-.footer .section_footer .article_footer {
+.footer .footer_section-udemy .footer_article-udemy {
   display: flex;
   gap: 15rem;
 }
-.footer .section_footer .article_footer .ul_footer {
+.footer .footer_section-udemy .footer_article-udemy .footer_ul-udemy {
   list-style: none;
   display: flex;
   flex-direction: column;
   font-size: 1.5rem;
   gap: 1.5rem;
 }
-.footer .section_footer .article_footer .ul_footer .li_footer {
+.footer .footer_section-udemy .footer_article-udemy .footer_ul-udemy .footer_li-udemy {
   font-size: 1.5rem;
   font-weight: 400;
   cursor: pointer;
 }
-.footer .section_footer .article_footer .ul_footer .li_footer:hover {
+.footer .footer_section-udemy .footer_article-udemy .footer_ul-udemy .footer_li-udemy:hover {
   text-decoration: underline;
 }
-.footer .section_footer .ul_bol_footer {
+.footer .footer_section-udemy .footer_wereldbol_emotie-udemy {
   display: flex;
   position: relative;
   bottom: 2rem;
@@ -602,23 +584,35 @@ main .breng_verandering .article_breng_verandering .div_breng_veranderingen_text
   border: 0.1rem solid rgb(255, 253, 253);
   cursor: pointer;
 }
-.footer .section_footer .ul_bol_footer:hover {
-  background: rgba(0, 0, 0, 0.5);
-}
-.footer .section_footer .ul_bol_footer .img_bol_footer {
+.footer .footer_section-udemy .footer_wereldbol_emotie-udemy .footer_foto_wereldbol-udemy {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-.footer .article_icon_author {
+.footer .footer_icoon_auteur-udemy {
   display: flex;
   justify-content: space-between;
   padding: 0 4rem;
   align-items: center;
   color: white;
 }
-.footer .article_icon_author .div_icon_author .img_icon_author {
+.footer .footer_icoon_auteur-udemy .footer_div_auteur-udemy .footer_foto_auteur-udemy {
   max-width: 6rem;
+}
+
+@media screen and (max-width: 60rem) {
+  .hamburger-udemy {
+    display: block;
+  }
+  .li_remove-udemy {
+    display: none;
+  }
+  .header_boven-ul {
+    gap: 1rem;
+  }
+}
+* {
+  font-family: "Oswald", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

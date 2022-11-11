@@ -1,0 +1,83 @@
+.artikelen_main_minecraft-udemy{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 12rem;
+    width: 85%;
+    padding: 2rem;
+    gap: 2rem;
+
+    .kaarten_minecraft_sectie_h1-udemy{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 8rem;
+        height: 60rem;
+        padding: 2rem;
+        gap: 2rem;
+
+        .section_cardjes_courses_udemy_h1{
+            font-weight: 900;
+            font-size: 3rem;
+        }
+
+        .kaarten_minecraft_sectie-udemy{
+            display: flex;
+            gap: 1.3rem;
+
+            .kaarten_div_kaart_minecraft-udemy{
+                width: 25rem;
+                height: 35rem;
+                border-radius: 0.5rem;
+                background: rgba(255, 255, 255,0.5);
+                position: relative;
+                cursor: pointer;
+
+                .artikel_div_kaarten_tekst-udemy{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    padding:1rem 0.5rem;
+
+                    .tekst_minecraft_review-udemy{
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+
+                        .p_review_numbers{
+                            color: rgb(155, 106, 14);
+                        }
+
+                        .li_minecraft_review-udemy{
+                            list-style: none;
+                            display: flex;
+                            align-items: center;
+                            gap: 0.3rem;
+                            
+                            .fa-star{
+                                font-size: 1.5rem;
+                                color: orange;
+                            }
+                        }
+                    }
+
+                    .prijs_section_div_minecraft-udemy{
+                        display: flex;
+                        gap: 2rem;
+
+                        .prijs_minecraft_p-udemy{
+                            font-weight: 700;
+                            font-size: 1.8rem;
+                        }
+
+                        .courses_prijs-previes{
+                            color: rgba(0,0,0,0.5);
+                            text-decoration: line-through;
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

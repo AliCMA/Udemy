@@ -1,0 +1,78 @@
+.div_cardjes_courses:hover {
+    opacity: 1;
+}
+
+.div_kaarten_foto-udemy {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+
+.artikelen_verschillende_categorien-udemy{
+background: #f7f9fa;
+width: 100%;
+height: 50rem;
+display: flex;
+padding: 0 14rem;
+flex-direction: column;
+padding-top: 6.4rem;
+
+.article_div_categorien-udemy{
+display: flex;
+gap: 4rem;
+flex-direction: column;
+width: 100%;
+height: 40rem;
+padding: 2rem 0;
+
+.artikelen_div_categorien-udemy {
+display: flex;
+justify-content: space-between;
+width: 100%;
+
+.categorien_div-udemy{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 3rem;
+
+.categorien_div_p-udemy{
+    color: #5624d0;
+    font-weight: bold;
+    font-size: 80%;
+    text-decoration: underline;
+
+    &:hover{
+        color: red;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+.categorien_div_h5-udemy{
+    color: grey;
+    font-weight: 100;
+}
+}
+}
+
+.categorie_button-udemy{
+width: 22rem;
+min-height: 4rem;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 0.1rem solid rgba(0,0,0,0.5);
+background: white;
+cursor: pointer;
+font-weight: 600;
+
+&:hover{
+color: #1c1d1f;
+background-color: rgba(0,0,0,.04);
+}
+}   
+}
+}

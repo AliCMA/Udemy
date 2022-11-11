@@ -1,0 +1,147 @@
+
+.instructie__article{
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+    .section_instractor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8rem;
+    
+
+    .div_instractor_image{
+        width: 45rem;
+        
+
+        .intructie_foto{
+            width: 100%;
+            min-height: 40rem;
+            object-fit: cover;
+            border-radius: 0.5rem;
+        }
+    }
+
+
+    .div_intractor_text{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .h1_intractor{
+            font-weight: 600;
+            font-size: 3rem;
+        }
+
+        .p_instractor{
+            width: 38ch;
+        }
+        
+            
+        }
+    }
+}
+
+
+.partnerschip_sectie-udemy{
+    padding-top: 5rem;
+    height: 25rem;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    
+    .section_partnership_betrouwbaar-udemy{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 4rem;
+        width: 100%;
+        padding: 2rem;
+        height: 25rem;
+
+        .h1_trusted_by_team{
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        .div_trusted_by_team{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 12rem;
+        }
+    }
+}
+
+.abbonement_games-udemy{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50rem;
+
+    .article_abbonement-udemy{
+        display: flex;
+        padding: 2rem;
+        width: 50%;
+        height: 40rem;
+        gap: 2rem;
+        
+        
+        .abbonement_tekst-udemy{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2rem;
+            width: 100%;
+
+            .div_knop_abbonement-udemy{
+                display: flex;
+                gap: 1rem;
+            }
+
+            .tekst_knop_abbonement-udemy{
+                width: 20rem;
+                height: 5rem;
+                background: rgba(0,0,0,0.9);
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+
+                &:hover{
+                    background: rgba(0,0,0,1);
+                }
+            }
+
+            .tekst_knop2_abbonement-udemy{
+                width: 20rem;
+                height: 5rem;
+                background: white;
+                color: black;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .abbonement_img-udemy{
+                max-width: 100%;
+                height: 40%;
+                object-fit: contain;
+            }
+        }
+
+        .div_foto_abbonement-udemy{
+            display: flex;
+            
+            .foto_abbo-udemy{
+                width: 100%;
+                min-height: 40rem;
+                object-fit: cover;
+            }
+        }
+    }
+}

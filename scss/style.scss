@@ -1,4 +1,16 @@
-@use './header/header.scss';
-@use './main/reset.scss';
-@use './main/main.scss';
-@use './footer/footer.scss';
+@use './reset.scss';
+
+@use './components/header/header.scss';
+
+@use './components/main/main.scss';
+@use './components/main/artikelen.scss';
+@use './components/main/banner-main.scss';
+@use './components/main/bovenheader.scss';
+@use './components/main/demoversie.scss';
+@use './components/main/gameinfo.scss';
+@use './components/main/tekst_artikelen.scss';
+
+@use './components/footer/footer.scss';
+
+@use './components/abstracts/mediaquerys.scss';
+@use './components/abstracts/font.scss';
